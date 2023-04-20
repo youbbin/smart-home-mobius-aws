@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<m2m:conf xmlns:m2m="http://www.onem2m.org/xml/protocols" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tas>
+        <parenthostname>localhost</parenthostname>
+        <parentport>3106</parentport>
+    </tas>
+    <download>
+        <ctname>cnt-led</ctname>
+        <id>id-led</id>
+    </download>
+    <ble>
+        <test_device>98:D3:31:30:3A:F1</test_device>
+        <test_service>0000ffe0-0000-1000-8000-00805f9b34fb</test_service>
+        <test_characteristic>0000ffe1-0000-1000-8000-00805f9b34fb</test_characteristic>
+    </ble>
+</m2m:conf>
